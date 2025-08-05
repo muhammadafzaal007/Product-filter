@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    /* height: 100vh; */
+    padding: 10px 20px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 25px;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+    
+}
+.underline{
+    background-color: #f59e0b;
+    width: 12rem;
+    height: .25rem;
+    margin: 3px 0;
+    /* margin-top: 1rem; */
+}
+.btns button{
+    background-color:#f59e0b;
+    color: white;
+    padding: 10px 20px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container,
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  /* max-width: 1200px; or something suitable */
+  /* margin: 0 auto; */
+}
+
+
+
+.menu .product{
+    width: 200px;
+}
+.product img{
+ width: 100%;
+ height: 300px;
+}
+.product-header button{
+    padding: 3px 7px;
+    background-color: #f59e0b;
+    color: white;
+    border:none;
+    border-radius: 4px;
+}
